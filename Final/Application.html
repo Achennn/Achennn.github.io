@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/normalize.css">
+        <link rel="stylesheet" href="style/hdftr.css">
+        <link rel="stylesheet" href="style/application.css">
+        
+        <title>Computer Science Department | AUM</title>
+        
+        <div class="navBar">
+        <a href="Home.html">Home</a>
+        <a href="Desciption.html">Desciption</a>
+        <a class="active" href="Application.html">TA Application</a>
+        <a href="GPA.html">GPA Calculate</a>
+        </div> 
+    
+    </head>
+    
+    <body>
+        <div style="padding:20px;margin-top:30px;height:10px;"></div>
+        <h1>Please fill the application form</h1>
+        
+        <form name="myform" action="applicationForm.html" method="get">
+        <label for="firstname">First name:</label>
+        <input type="text" name="firstname" id="firstname" autofocus required><br>
+        <label for="lastname">Last name:</label>
+        <input type="text" name="lastname" id="lastname" required><br>
+        <label for="id">AUM ID: S</label>
+        <input type="text" name="id" id="id" placeholder="8 digidts" pattern="\d{8}" required><br>
+        <label for="gender">Gender:</label>
+        <select name="letter" id="letter">
+            <option value="none"></option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br>
+        <label for="gpa">GPA:</label>
+        <input type="text" name="gpa" id="gpa"  required><br>
+        <label for="date">Submission Date:</label>
+        <input type="date" name="date" id="date" required><br>
+        <label for="comment">Comments:</label>
+        <input type="text" name="comment" id="comment" required><br>
+
+        <input type="submit" name="button" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset"> 
+        </form>
+    
+    
+    </body>
+    
+    <footer>
+    <p>2020-Summer made by &#169;Cheng Huang </p>
+    </footer>
+
+
+</html>

@@ -1,0 +1,34 @@
+/*Masonry*/
+.root{
+    margin: 0 auto;
+    width: 1000px;
+    column-count: 3;
+    column-width: 300px;
+    column-gap: 20px;
+}
+
+.item{
+    margin-bottom: 10px;
+    break-inside: avoid;
+    background: #bddb63;
+    border-style: solid;
+}
+
+.item a{
+    vertical-align: middle;
+}
+
+.item:hover{
+    box-shadow: 2px 2px 2px;
+}
+
+/*picture*/
+.students{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    
+}
+

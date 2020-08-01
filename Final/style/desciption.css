@@ -1,0 +1,63 @@
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    padding: inherit;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.part1{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #bddb63;
+}
+
+.part2{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #bddb63;
+}
+
+.part3{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    background: #bddb63;
+}
+
+.part4{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+    margin: auto;
+    background: #bddb63;
+}
